@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
 }
-img{
+img {
   max-width: 100%;
 }
 /* # UTILS */
@@ -32,4 +32,24 @@ img{
   flex: 1 0 30%;
   background-color: gray;
   min-height: 300px;
+  position: relative;
+  cursor: pointer;
+}
+
+.product-card .card-description > h4 {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  color: white;
+  display: inline-block;
+}
+
+.product-card .heart {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background-color: white;
+  text-align: center;
+  line-height: 2;
+  width: 2pc;
 }
